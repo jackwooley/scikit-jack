@@ -3,7 +3,7 @@ def matmul(A, B):
     
     Params:
     :A, B -- need to both be either numpy arrays or lists of lists, with the appropriate dimensions.
-    Can scalars, but need to be formatted as 
+    Can scalars, but need to be formatted as list of list of length 1.
     """
 
     # check dimensions to make sure they're compatible
